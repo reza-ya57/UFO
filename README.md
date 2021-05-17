@@ -1,9 +1,25 @@
 # UFO
 
 ## Overview of Project:
-- Build a dynamic table to show the UFO sighting records with the ability of filtering the data.
 - In this project we colect the UFO sighting info across the world and gather all data in dynamic table by using Javascript language.
-- We collect all data in tidy HTML page to upload on the web and also using the table to manupulate it easily by adding the filter on the table. 
+
+- Build a dynamic table to show the UFO sighting records with the ability of filtering the data.
+
+- We collect all data in tidy HTML page to upload on the web and also using the table to manupulate it easily by adding the filter on different column.
+
+## Results
+
+We added multiple search criteria to make the webpage more attractive and interactive for users. 
+users can filtered the data on datetime, city, country, state and also shape of UFO sighting.
+
+Using the filter is realy simple just need to fill in the field of each category that you need to filtered by. 
+
+check below for some sample of filtering:
+filtered by city: "benton"
+![filter_city](https://github.com/reza-ya57/UFO/blob/main/static/images/filter_city.png)
+
+
+
 to build the table and add filter on different area, like date, city or country of sighting records. 
 Users can easily filtered the data based on their interest or requirements.
 
