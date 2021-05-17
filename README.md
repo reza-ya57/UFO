@@ -1,4 +1,4 @@
-# UFO
+# UFO Sightings
 
 ## Overview of Project:
 - In this project we colect the UFO sighting info across the world and gather all data in dynamic table by using Javascript language.
@@ -32,14 +32,7 @@ To reset the table and delete all filtered click on "UFO Sightings" on the top r
 
 ## Summary
 
-- this new design give the users more ability to filtered the data in different area. 
+- This new design give the users more ability to filtered the data in different area. 
 - To make it even better I have two more recomendation as below:
     - Add one more field to filter "Duration" so users also can go through the time of sighting and check longest duration or shortest one, but for this reason first need to       clean the duration records and make all records to single format. 
     - Refactor the filter function to add the ability of multiple filtering based on multiple selected criteria.
-
-2-	Check the precipitation for December
-```
-dec_prcp = []
-dec_prcp = session.query(Measurement.prcp).\
-    filter(extract('month',Measurement.date) == 12).all()
-```
