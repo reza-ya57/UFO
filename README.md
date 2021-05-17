@@ -16,9 +16,19 @@ Using the filter is realy simple just need to fill in the field of each category
 
 check below for some sample of filtering:
 filtered by city: "benton"
+In this example we filtered the data on city named "benton". you just need to add the city name in the field and press enter.
+
 ![filter_city](https://github.com/reza-ya57/UFO/blob/main/static/images/filter_city.png)
 
+filtered by shape: "light"
+User also can filter the data based on the shape of sighting. Used light and see the below result:
 
+
+![filter_shape](https://github.com/reza-ya57/UFO/blob/main/static/images/filter_shape.png)
+
+To reset the table and delete all filtered click on "UFO Sightings" on the top right side of the page.
+
+![filter_reset](https://github.com/reza-ya57/UFO/blob/main/static/images/reset_filter.png)
 
 to build the table and add filter on different area, like date, city or country of sighting records. 
 Users can easily filtered the data based on their interest or requirements.
